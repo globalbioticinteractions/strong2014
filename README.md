@@ -4,7 +4,6 @@ Configuration to help Global Biotic Interactions (GloBI, https://globalbioticint
 
 Strong, Justin S., and Shawn J. Leroux. 2014. "Impact of Non-Native Terrestrial Mammals on the Structure of the Terrestrial Mammal Food Web of Newfoundland, Canada." PLOS ONE 9 (8): e106264. https://doi.org/10.1371/journal.pone.0106264
 
-
 Steps to create indexed NL_FullDB.tsv:
 
 1. download https://ndownloader.figshare.com/files/1475805 (see included copy NL_FullDB.xlsx) retrieve via `Strong, Justin; Leroux, Shawn (2014): Terrestrial Mammal Food Web of Newfoundland. figshare. Dataset. https://doi.org/10.6084/m9.figshare.855617.v5` 
