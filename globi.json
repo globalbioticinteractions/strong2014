@@ -1,0 +1,127 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "NL_FullDB.tsv",
+    "dcterms:bibliographicCitation" : "Strong, Justin S., and Shawn J. Leroux. 2014. \"Impact of Non-Native Terrestrial Mammals on the Structure of the Terrestrial Mammal Food Web of Newfoundland, Canada.\" PLOS ONE 9 (8): e106264. https://doi.org/10.1371/journal.pone.0106264",
+    "doi" : "10.1371/journal.pone.0106264",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName" : "eats",
+    "interactionTypeId" : "http://purl.obolibrary.org/obo/RO_0002470",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "Focal species",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Food item",
+        "datatype" : "string"
+      }, {
+        "name" : "Category",
+        "titles" : "Category",
+        "datatype" : "string"
+      }, {
+        "name" : "Additional food item information",
+        "titles" : "Additional food item information",
+        "datatype" : "string"
+      }, {
+        "name" : "basisOfRecordName",
+        "titles" : "Method",
+        "datatype" : "string"
+      }, {
+        "name" : "Sample size",
+        "titles" : "Sample size",
+        "datatype" : "string"
+      }, {
+        "name" : "% frequency of occurrence",
+        "titles" : "% frequency of occurrence",
+        "datatype" : "string"
+      }, {
+        "name" : "% of total volume",
+        "titles" : "% of total volume",
+        "datatype" : "string"
+      }, {
+        "name" : "Estimated mean % prey composition",
+        "titles" : "Estimated mean % prey composition",
+        "datatype" : "string"
+      }, {
+        "name" : "Mean % relative density",
+        "titles" : "Mean % relative density",
+        "datatype" : "string"
+      }, {
+        "name" : "% total volume for season",
+        "titles" : "% total volume for season",
+        "datatype" : "string"
+      }, {
+        "name" : "% frequency of occurrence within samples containing bird remains",
+        "titles" : "% frequency of occurrence within samples containing bird remains",
+        "datatype" : "string"
+      }, {
+        "name" : "% of dry fecal weight",
+        "titles" : "% of dry fecal weight",
+        "datatype" : "string"
+      }, {
+        "name" : "% of all fish identified",
+        "titles" : "% of all fish identified",
+        "datatype" : "string"
+      }, {
+        "name" : "% contribution to fatty acid signatures",
+        "titles" : "% contribution to fatty acid signatures",
+        "datatype" : "string"
+      }, {
+        "name" : "% of total stems utilized",
+        "titles" : "% of total stems utilized",
+        "datatype" : "string"
+      }, {
+        "name" : "% time spent on each food type",
+        "titles" : "% time spent on each food type",
+        "datatype" : "string"
+      }, {
+        "name" : "% of browse pile",
+        "titles" : "% of browse pile",
+        "datatype" : "string"
+      }, {
+        "name" : "Average fragments of chewed vegetation per colony",
+        "titles" : "Average fragments of chewed vegetation per colony",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Location",
+        "datatype" : "string"
+      }, {
+        "name" : "Additional location information",
+        "titles" : "Additional location information",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "Sampling period",
+        "datatype" : "string"
+      }, {
+        "name" : "Month",
+        "titles" : "Month",
+        "datatype" : "string"
+      }, {
+        "name" : "Season",
+        "titles" : "Season",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Reference",
+        "datatype" : "string"
+      }, {
+        "name" : "",
+        "titles" : "",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
